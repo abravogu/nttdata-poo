@@ -25,7 +25,7 @@ namespace CalculatorProyect.Loops.Tests
                 PrintProduct.CreateListProduct();*/
          
             Assert.IsTrue(PrintProduct.GetProductGraterThan30WithFor().Count==2);
-            Assert.IsTrue(Pr*intProduct.GetProductGraterThan30WithFor()[0].Name=="Aceite");
+            Assert.IsTrue(PrintProduct.GetProductGraterThan30WithFor()[0].Name=="Aceite");
             Assert.IsTrue(PrintProduct.GetProductGraterThan30WithFor()[1].Name == "Juego");
         }
 
